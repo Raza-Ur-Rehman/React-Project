@@ -1,10 +1,14 @@
+import Footer from "./components/Footer/footer"
+import Header from "./components/Header/header"
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Header/>
+      <Footer/>
+    </>
   )
+
 }
 
 export default App
