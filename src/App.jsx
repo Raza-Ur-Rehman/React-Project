@@ -1,9 +1,11 @@
+import Home from "./pages/Home.jsx"
 
 const App = () => {
   return (
     <>
-    <Home/>
+      <Home/>  
     </>
+
   )
 
 }
