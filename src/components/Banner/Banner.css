@@ -1,0 +1,27 @@
+.banner-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em;
+}
+.heading-wrapper {
+    text-align: center;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.image-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: aqua;
+}
+.bg-box {
+    background-color: #f2ebda;
+    border-radius: 10px;
+}
+.bg-box img {
+    width: 100%;
+}

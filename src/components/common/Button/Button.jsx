@@ -1,8 +1,8 @@
-
+import "./Button.css"
 const Button = () => {
   return (
     <div>
-      <button>order now</button>
+      <button >order now</button>
     </div>
   )
 }
