@@ -1,4 +1,4 @@
-button {
+.btn {
     background-color: var(--color-secondary);
     color: var(--color-light);
     font-size: 16px;
@@ -11,4 +11,21 @@ button {
     &:hover {
         background-color: var(--color-primary);
     }
+}
+.downloadbtn  {
+    background-color: var(--color-light) ;
+    color: var(--color-primary);
+    font-size: 35px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 1s;
+    &:hover {
+        transition: color 1s;
+        background-color: var(--color-primary);
+        color: var(--color-light);
+    }
+
 }

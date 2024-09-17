@@ -1,7 +1,9 @@
 .header-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 .logo{
     height: 6em;

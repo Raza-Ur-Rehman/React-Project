@@ -2,9 +2,10 @@ import "./Button.css"
 const Button = () => {
   return (
     <div>
-      <button >order now</button>
+      <button className="btn">order now</button>
     </div>
   )
 }
 
 export default Button
+
