@@ -6,11 +6,18 @@
 }
 :root {
   --font-size-base: 16px;
-  --color-primary:#ff5331;
-  --color-secondary: #323232;
+  --color-primary: #323232;
+  --color-secondary: #ff5331;
   --color-tertiary: #009b00;
   --color-light: #ffffff;
   --color-dark: #000000;
   --font-family-base: 'Poppins', sans-serif;
 
+}
+
+
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
 }

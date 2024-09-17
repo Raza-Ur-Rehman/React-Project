@@ -9,17 +9,19 @@
     will-change: filter;
     transition: filter 300ms;
     cursor: pointer;  
-    filter: drop-shadow(0 0 2em );
-    text-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
-    border-radius: 50%;
-    transition: filter 300ms;
-    &:hover {
-        filter: drop-shadow(0 0 2em #61dafbaa);
-    }
 
 }
-
-
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+.navbar ul li {
+    list-style: none;
+    margin-right: 1em;
+    cursor: pointer;
+}
 
 
 
