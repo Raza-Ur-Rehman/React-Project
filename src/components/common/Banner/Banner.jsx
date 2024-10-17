@@ -1,22 +1,19 @@
-import Button from "../common/Button/Button";
-import DownloadButton from "../common/DownloadButton/DownloadButton";
+import Button from "../Button/Button";
 import "./Banner.css";
 
 const Banner = () => {
   return (
     <div className="banner-wrapper">
       <div className="heading-wrapper">
-        <h1>Your Favorite Food Delivery Partner</h1>
+        <h1>Order Products Faster Easier</h1>
         <p>
           The food at your doorstep. Why starve when you have us. You hunger
           partner. Straight out of the oven to your doorstep.
         </p>
         <div className="location-wrapper">
           <div className="input-wrapper">
-            <input type="text" placeholder="Enter your delivery location "/>
-            <Button/>
+            <Button text="Get Started" />
           </div>
-          <DownloadButton/>
         </div>
       </div>
       <div className="image-wrapper">

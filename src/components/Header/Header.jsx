@@ -5,7 +5,7 @@ const Header = () => {
   return (
   <div className="header-wrapper">
     <div className="logo">
-      <h1>&#127829;</h1>
+      <h1>Delivery.</h1>
     </div>
     <div className="navbar">
       <ul>
@@ -28,7 +28,7 @@ const Header = () => {
     </div>
     <div className="btn_wrapper">
       <span>Login</span>
-      <Button/>
+      <Button text="Order now!" />
 
     </div>
   </div>

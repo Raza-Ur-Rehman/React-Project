@@ -12,11 +12,9 @@ body {
 }
 :root {
   --font-size-base: 16px;
-  --color-primary: #323232;
-  --color-secondary: #ff5331;
-  --color-tertiary: #009b00;
-  --color-light: #ffffff;
-  --color-dark: #000000;
+  --black-color: #282725;
+  --white-color: #FFFFFF;
+  --first-color: #FDCB35;
   --font-family-base: 'Poppins', sans-serif;
 
 }

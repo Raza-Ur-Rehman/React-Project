@@ -1,8 +1,8 @@
 import "./Button.css"
-const Button = () => {
+const Button = ({text, icon }) => {
   return (
     <div>
-      <button className="btn">order now</button>
+      <button className="btn">{icon}{text}</button>
     </div>
   )
 }
